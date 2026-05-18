@@ -11,3 +11,9 @@ export const validatePost = (req, res, next) => {
   if (error) return res.status(400).json({ error });
   next();
 };
+
+export const validatePostUpdate = (req, res, next) => {
+  const error = isValidPost(req.body, true);
+  if (error) return res.status(400).json({ error });
+  next();
+};
