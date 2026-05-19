@@ -4,9 +4,9 @@ export const isValidAuthor = ({ name, email }) => {
   return null;
 };
 
-export const isValidPost = ({ title, content, author_id }) => {
+export const isValidPost = ({ title, content, author_id }, isUpdate = false) => {
   if (!title || title.trim() === '') return 'El título es obligatorio';
   if (!content || content.trim() === '') return 'El contenido es obligatorio';
-  if (!author_id) return 'El author_id es obligatorio';
+  if (!isUpdate && !author_id) return 'El author_id es obligatorio';
   return null;
 };
