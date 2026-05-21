@@ -1,6 +1,6 @@
-# PI M2 - API REST
+# MINIBLOG DEVSPARK - API REST
 
-API REST para gestión de authors y posts, construida con Node.js, Express y PostgreSQL. Proyecto integrador del Módulo 2 del programa Full Stack Development.
+API REST para gestión de authors y posts, construida con Node.js, Express y PostgreSQL. Proyecto integrador del Módulo 2 para DevSpark.
 
 ## Tecnologías utilizadas
 
