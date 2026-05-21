@@ -121,4 +121,4 @@ https://editor.swagger.io
 ## Deploy
 
 API desplegada en Railway:
-**https://pi-m2-api-production.up.railway.app**
+**https://pi-m2-api-production.up.railway.app/api/authors**
